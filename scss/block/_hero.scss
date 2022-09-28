@@ -1,0 +1,222 @@
+.hero__container {
+  max-width: 1947px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../images/coffe-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.hero__wrap {
+  padding-top: 117px;
+  padding-left: 86px;
+  padding-bottom: 116px;
+  max-width: 493px;
+}
+.hero__content {
+  max-width: 493px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.hero__title2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.hero__text-wrapper {
+  max-width: 493px;
+  margin-bottom: 56px;
+}
+.hero__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.hero__link {
+  background: #66d2cf;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #fefcf7;
+  padding: 15px 31px 15px 31px;
+}
+@media only screen and (max-width: 1030) {
+  .hero__container {
+    max-width: 1284px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../images/coffe-minus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  .hero__wrap {
+    padding-top: 104px;
+    padding-left: 58px;
+    padding-bottom: 104px;
+    max-width: 400px;
+  }
+  .hero__content {
+    max-width: 329px;
+    height: 97px;
+    margin-bottom: 20px;
+  }
+  .hero__title2 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  .hero__text-wrapper {
+    max-width: 329px;
+    margin-bottom: 20px;
+  }
+  .hero__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .hero__link {
+    background: #66d2cf;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #fefcf7;
+    padding: 15px 31px 15px 31px;
+  }
+}
+@media only screen and (max-width: 690) {
+  .hero__container {
+    max-width: 690px;
+
+    background-image: url("../../images/coffe-minus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+  }
+  .hero__wrap {
+    padding-top: 94px;
+    padding-left: 48px;
+    padding-bottom: 94px;
+    max-width: 360px;
+  }
+  .hero__content {
+    max-width: 309px;
+    height: 87px;
+    margin-bottom: 15px;
+  }
+  .hero__title2 {
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 62px;
+    color: #fefcf7;
+  }
+  .hero__text-wrapper {
+    max-width: 309px;
+    margin-bottom: 18px;
+  }
+  .hero__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .hero__link {
+    background: #66d2cf;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #fefcf7;
+    padding: 15px 31px 15px 31px;
+  }
+}
+
+@media only screen and (max-width: 430) {
+  .hero__container {
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../images/Object-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+  }
+  .hero__wrap {
+    padding-top: 104px;
+    padding-left: 58px;
+    padding-bottom: 104px;
+    max-width: 270px;
+  }
+  .hero__content {
+    max-width: 279px;
+    height: 81px;
+    margin-bottom: 20px;
+  }
+  .hero__title2 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fefcf7;
+  }
+  .hero__text-wrapper {
+    max-width: 329px;
+    margin-bottom: 20px;
+  }
+  .hero__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .hero__link {
+    background: #66d2cf;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #fefcf7;
+    padding: 15px 31px 15px 31px;
+  }
+}

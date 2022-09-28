@@ -1,0 +1,50 @@
+.headr {
+  padding: 48px 0px 48px 0px;
+  background: #fff;
+}
+.headr__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headr__logo {
+  max-width: 236px;
+}
+.headr__display {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.headr__list {
+  display: flex;
+  align-items: center;
+}
+.headr__item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+}
+
+.headr__item:hover {
+  cursor: pointer;
+  color: #333d4b;
+}
+.headr__item + .headr__item {
+  margin-left: 33px;
+}
+
+@media only screen and (max-width: 620px) {
+  .headr__display {
+    background-image: url("../../images/3-chiziq.png");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  .headr__list {
+    display: none;
+  }
+}
