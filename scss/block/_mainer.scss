@@ -1,9 +1,10 @@
 .mainner {
   background: #2c343e;
   border-radius: 10px;
+  margin-bottom: 200px;
 }
 .mainer__container {
-  padding-top: 110px;
+  padding: 110px 85px 0px 85px;
   max-width: 1280px;
   height: 577px;
   text-align: center;
@@ -39,14 +40,14 @@
   opacity: 0.8;
 }
 .mainer__list {
+  border-radius: 8px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .mainer__item {
   padding-top: 72px;
-  width: 350px;
+  max-width: 350px;
   height: 382px;
-  text-align: center;
 
   background: #0e8784;
   border-radius: 8px;
@@ -86,6 +87,7 @@
 
   color: #fefcf7;
 }
+
 @media only screen and (max-width: 765px) {
   .mainner {
     background-size: contain;
@@ -229,6 +231,7 @@
     margin-bottom: 600px;
   }
   .mainer__container {
+    text-align: center;
     padding: 56px 24px 84px 24px;
     max-width: 327px;
     height: 902px;

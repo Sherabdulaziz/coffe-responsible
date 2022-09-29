@@ -427,10 +427,11 @@ body {
 .mainner {
   background: #2c343e;
   border-radius: 10px;
+  margin-bottom: 200px;
 }
 
 .mainer__container {
-  padding-top: 110px;
+  padding: 110px 85px 0px 85px;
   max-width: 1280px;
   height: 577px;
   text-align: center;
@@ -464,19 +465,19 @@ body {
 }
 
 .mainer__list {
+  border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mainer__item {
   padding-top: 72px;
-  width: 350px;
+  max-width: 350px;
   height: 382px;
-  text-align: center;
   background: #0e8784;
   border-radius: 8px;
 }
@@ -675,6 +676,7 @@ body {
     margin-bottom: 600px;
   }
   .mainer__container {
+    text-align: center;
     padding: 56px 24px 84px 24px;
     max-width: 327px;
     height: 902px;
@@ -759,10 +761,7 @@ body {
 }
 .section__works {
   background: #fff;
-}
-
-.works__container {
-  padding: 285px 165px 200px 165px;
+  margin-bottom: 200px;
 }
 
 .works__title3 {
@@ -776,7 +775,7 @@ body {
 
 .works__content {
   max-width: 710px;
-  height: 2px;
+  height: 1px;
   background-color: #fdd6ba;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -851,6 +850,18 @@ body {
   margin-bottom: 64px;
 }
 
+.a-link {
+  max-width: 217px;
+  display: inline;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fefcf7;
+  padding: 15px 31px 15px 31px;
+}
+
 @media only screen and (max-width: 900px) {
   .works__content {
     max-width: 710px;
@@ -887,11 +898,17 @@ body {
             justify-content: space-between;
     margin-bottom: 48px;
   }
+  .works__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .works__item + .works__item {
     margin-left: 15px;
   }
 }
-@media only screen and (max-width: 504) {
+@media only screen and (max-width: 504px) {
   .works__container {
     text-align: center;
     max-width: 100%;
@@ -908,8 +925,10 @@ body {
   }
   .works__list {
     padding-top: 94px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     margin-bottom: 220px;
   }
@@ -924,6 +943,9 @@ body {
   .works__list-title3 {
     font-size: 28px;
     max-width: 100%;
+  }
+  .a-link {
+    width: 217px;
   }
 }
 .footer {
